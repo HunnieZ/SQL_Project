@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Breakdown Company Frontend</title>
+<script defer src="script.js"></script>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+<h1>Breakdown Company Frontend</h1>
+<div class="mainContainer">
+<div id="output"></div>
+<button onclick="fetchMembersByLocation('London')">Get Members in London</button>
+<button onclick="fetchCarsByMake('BMW')">Get BMW Cars</button>
+<button onclick="fetchEngineerCount()">Get Engineer Count</button>
+<button onclick="fetchMemberCount()">Get Member Count</button>
+<button onclick="fetchBreakdownsAfterDate('2023-11-01')">Get Breakdowns After 2023-11-01</button>
+<button onclick="fetchBreakdownsBetweenDates('2023-04-04', '2023-08-01')">Get Breakdowns Between Dates</button>
+<button onclick="fetchBreakdownCountByVehicle('A123456789')">Get Breakdown Count for A123456789</button>
+<button onclick="fetchRepeatBreakdowns()">Get Vehicles with Repeat Breakdowns</button>
+</div>
+</body>
+</html>

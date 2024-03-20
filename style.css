@@ -1,0 +1,16 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: black;
+    color: whitesmoke;
+}
+
+.mainContainer  {
+    background-color: lightgrey;
+    color:#333;
+    border: 2px solid chartreuse;
+    border-radius: 2px;
+}
+
+button {
+    margin: 5px;
+}
